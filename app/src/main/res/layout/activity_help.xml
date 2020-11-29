@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.user.albaz.rafiq.activities.ActivityHelp">
+
+    <LinearLayout
+        android:id="@+id/activity_help_ll_trap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/trap_company"
+            android:textSize="@dimen/_30sdp"
+            android:textColor="@color/red"
+            android:layout_gravity="left|center_vertical"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/ic_thief"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_gravity="right|center_vertical"
+            />
+
+    </LinearLayout>
+
+
+
+    <com.user.albaz.rafiq.utils.MyBoldTextView
+        android:id="@+id/title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black_text_color"/>
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_txt"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:src="@drawable/help_executive" />
+
+
+    <ImageView
+        android:id="@+id/img_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/img_mail"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/help_call"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/img_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/help_mail" />
+
+    <ImageView
+        android:id="@+id/img_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/img_mail"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/help_web" />
+
+    <com.user.albaz.rafiq.utils.MyBoldTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_web"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/help_msg"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black_text_color"/>
+
+</RelativeLayout>

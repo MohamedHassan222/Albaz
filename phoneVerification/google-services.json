@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461761995239",
+    "firebase_url": "https://test-5a3b3.firebaseio.com",
+    "project_id": "test-5a3b3",
+    "storage_bucket": "test-5a3b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461761995239:android:b2666d2071c8056854dd42",
+        "android_client_info": {
+          "package_name": "com.phonenumberui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461761995239-n74tr1j8vi7fa71n0m5t8ioh8m9bgh9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsHGGl08BqtL0RkRw5mp9lCWe32LpMpR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461761995239-n74tr1j8vi7fa71n0m5t8ioh8m9bgh9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
